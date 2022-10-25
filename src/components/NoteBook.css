@@ -1,0 +1,28 @@
+.NoteBook {
+    width: 80vw;
+    background-color: #1D1E24;
+    color: black;
+}
+
+.Notebook-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Notebook-header>div>input {
+    background-color: #262730;
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+.Pinned-todos {
+    display: grid;
+}
+
+.todo-items {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}

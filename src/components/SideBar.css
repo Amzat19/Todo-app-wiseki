@@ -1,0 +1,24 @@
+header {
+    margin: 20px 0px 0px 30px;
+}
+
+.SideBar {
+    width: 20vw;
+    background-color: #262730;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.3fr;
+}
+
+.list>ul {
+    display: grid;
+    gap: 15px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.AddElement {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1D1E24;
+}
